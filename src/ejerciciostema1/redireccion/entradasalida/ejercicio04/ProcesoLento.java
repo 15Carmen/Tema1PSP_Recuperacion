@@ -1,4 +1,4 @@
-package redireccion.entradasalida.ejercicio4;
+package ejerciciostema1.redireccion.entradasalida.ejercicio04;
 
 public class ProcesoLento {
 

@@ -1,11 +1,11 @@
-package redireccion.entradasalida.ejercicio4;
+package ejerciciostema1.redireccion.entradasalida.ejercicio04;
 
 import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
 
-        String comando[] = {"java", "src/redireccion.entradasalida/ejercicio4/ProcesoLento.java"};
+        String comando[] = {"java", "src/ejerciciostema1.redireccion.entradasalida/ejercicio4/ProcesoLento.java"};
         ProcessBuilder pb = new ProcessBuilder(comando);
 
         //pb.inheritIO();

@@ -1,14 +1,14 @@
-package redireccion.entradasalida.ejercicio5;
+package ejerciciostema1.redireccion.entradasalida.ejercicio05;
 
 import java.io.File;
 
 public class LanzaProceso {
     public static void main(String[] args) {
         //Declaramos el ProcessBuilder y le pasamos el comando para ejecutar el programa PreguntaNombre
-        ProcessBuilder pb = new ProcessBuilder("java", "src/redireccion/entradasalida/ejercicio5/PreguntaNombre.java");
+        ProcessBuilder pb = new ProcessBuilder("java", "src/ejerciciostema1.redireccion/entradasalida/ejercicio5/PreguntaNombre.java");
 
         //Le decimos que el proceso va a leer de un fichero y que va a escribir en la consola
-        pb.redirectInput(new File("src/redireccion.entradasalida/ejercicio5/fichero.txt"));
+        pb.redirectInput(new File("src/ejerciciostema1.redireccion.entradasalida/ejercicio5/fichero.txt"));
         pb.redirectOutput(ProcessBuilder.Redirect.INHERIT);
 
         try{

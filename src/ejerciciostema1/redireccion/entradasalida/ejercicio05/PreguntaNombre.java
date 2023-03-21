@@ -1,4 +1,4 @@
-package redireccion.entradasalida.ejercicio5;
+package ejerciciostema1.redireccion.entradasalida.ejercicio05;
 
 import java.util.Scanner;
 

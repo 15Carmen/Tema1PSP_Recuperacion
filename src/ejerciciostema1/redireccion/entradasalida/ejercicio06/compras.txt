@@ -1,0 +1,2 @@
+Código: 456 Precio: 7.0 Cantidad: 2 Total: 14.0
+Código: 789 Precio: 6.0 Cantidad: 4 Total: 24.0
