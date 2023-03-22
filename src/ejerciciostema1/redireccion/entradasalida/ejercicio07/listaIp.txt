@@ -1,0 +1,21 @@
+
+La ip: 121.152.47 es una ip de la clase A
+La ip: 200.93.86 es una ip de la clase C
+La ip: 64.81.245 es una ip de la clase A
+La ip: 50.191.177 es una ip de la clase A
+La ip: 112.73.206 es una ip de la clase A
+La ip: 143.61.221 es una ip de la clase B
+La ip: 161.100.113 es una ip de la clase B
+La ip: 163.248.15 es una ip de la clase B
+La ip: 53.77.41 es una ip de la clase A
+La ip: 88.69.142 es una ip de la clase A
+La ip: 23.14.225 es una ip de la clase A
+La ip: 180.206.219 es una ip de la clase B
+La ip: 58.3.143 es una ip de la clase A
+La ip: 176.224.7 es una ip de la clase B
+La ip: 135.230.253 es una ip de la clase B
+La ip: 35.59.168 es una ip de la clase A
+La ip: 131.123.13 es una ip de la clase B
+La ip: 77.208.162 es una ip de la clase A
+La ip: 174.139.57 es una ip de la clase B
+La ip: 3.55.118 es una ip de la clase A
