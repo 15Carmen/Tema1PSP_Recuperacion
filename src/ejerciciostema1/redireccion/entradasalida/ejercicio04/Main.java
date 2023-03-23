@@ -11,7 +11,7 @@ public class Main {
         //pb.inheritIO();
 
         //redireccionar salida
-        pb.redirectOutput(new File("salidaProcesoLento.txt"));  //Hacemos que la salida del proceso se guarde en un fichero
+        pb.redirectOutput(new File("src/ejerciciostema1/redireccion/entradasalida/ejercicio04/salidaProcesoLento.txt"));  //Hacemos que la salida del proceso se guarde en un fichero
         pb.redirectError(ProcessBuilder.Redirect.INHERIT);
 
         try{
