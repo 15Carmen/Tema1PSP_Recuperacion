@@ -39,20 +39,29 @@ public class MainSInEspera {
         pb5.inheritIO();
 
         try {                     //Comenzamos todos los procesos
-            pb1.start();
-            pb2.start();
-            pb3.start();
-            pb4.start();
-            pb5.start();
+            Process p1 = pb1.start();
+            Process p2 =pb2.start();
+            Process p3 =pb3.start();
+            Process p4 = pb4.start();
+            Process p5 =pb5.start();
+
+            p1.waitFor();
+            p2.waitFor();
+            p3.waitFor();
+            p4.waitFor();
+            p5.waitFor();
+
         } catch (IOException e) { //Si hay algun problema con los procesos lanzamos un mensaje de error
             System.out.println("Error al lanzar el proceso! Ha habido algun problema de E/S");
             System.out.println(e.getMessage());
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
 
         //Marcamos este como el fin del programa y lo guardamos en la variable fin
         fin = System.currentTimeMillis();
 
         //Imprimimos por consola el tiempo de ejecución total del programa, que es el fin de este menos el comienzo
-        System.out.println("El tiempo de ejecucion sin esperas es de " + (fin-comienzo) + " milisegundos");
+        System.out.println("El tiempo de ejecución sin esperas es de " + (fin-comienzo) + " milisegundos");
     }
 }
